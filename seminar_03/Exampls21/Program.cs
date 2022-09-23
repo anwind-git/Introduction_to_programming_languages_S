@@ -11,10 +11,5 @@ int bx = Convert.ToInt32(Console.ReadLine());
 Console.Write("Координаты точки B(y): ");
 int by = Convert.ToInt32(Console.ReadLine());
 
-int num1 = bx - ax;
-int num2 = by - ay;
-
-double result = Math.Sqrt(num1 * num1 + num2 * num2);
-result = Math.Round(result, 2);
+double result = Math.Sqrt(Math.Pow((bx - ax), 2) + Math.Pow((by - ay), 2));
 Console.WriteLine($"Расстояние между 2-мя точками {result}");
-Console.WriteLine(result);
