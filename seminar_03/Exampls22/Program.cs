@@ -7,6 +7,6 @@ int i = 1;
 
 while (i <= N)
 {
-    Console.WriteLine($"Квадрат числа {i}: ({i} * {i}) = {i * i}");
+    Console.WriteLine($"Квадрат числа {i}: {i} * {i} = {i * i}");
     i++;
 }
