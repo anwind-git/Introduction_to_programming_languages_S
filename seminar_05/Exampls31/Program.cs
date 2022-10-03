@@ -27,6 +27,7 @@ void Negative(int[] array)
     }
     Console.WriteLine($"Сумма отрицательных чисел: " + negative_sum);
 }
+
 void Positive(int[] array)
 {
     int positive_sum = 0;
