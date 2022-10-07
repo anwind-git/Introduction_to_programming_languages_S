@@ -40,4 +40,4 @@ void PrintArray(int[,] numbers)
     }
 }
 
-Zadaha46();
+Zadaha48();
