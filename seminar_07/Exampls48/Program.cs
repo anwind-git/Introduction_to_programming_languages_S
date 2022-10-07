@@ -2,7 +2,7 @@
 // каждый элемент в массиве находится по формуле: A = m+n. 
 // Выведите полученный массив на экран.
 
-void Zadaha49()
+void Zadaha48()
 {
     int rows = 3;
     int colunms = 4;
@@ -40,4 +40,4 @@ void PrintArray(int[,] numbers)
     }
 }
 
-Zadaha49();
+Zadaha48();
