@@ -12,9 +12,9 @@ void Zadaha49()
 
     FillArray(numbers);
     PrintArray(numbers);
-    for(int i = 2; i < rows; i += 2)
+    for(int i = 0; i < rows; i += 2)
     {
-        for(int j = 2; j < colunms; j += 2)
+        for(int j = 0; j < colunms; j += 2)
         {
             numbers[i, j] = numbers[i, j] * numbers[i, j];
         }
