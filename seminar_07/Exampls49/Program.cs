@@ -4,19 +4,18 @@
 
 void Zadaha49()
 {
-    int rows = 3;
-    int colunms = 4;
+    int rows = 4;
+    int colunms = 5;
     Console.WriteLine($"Массив размера {rows}x{colunms}");
 
     int[,] numbers = new int[rows, colunms];
 
     FillArray(numbers);
     PrintArray(numbers);
-    for(int i = 0; i < rows; i++)
+    for(int i = 2; i < rows; i += 2)
     {
-        for(int j = 0; j < colunms; j ++)
+        for(int j = 2; j < colunms; j += 2)
         {
-            if(numbers[i, j]%2 == 0)
             numbers[i, j] = numbers[i, j] * numbers[i, j];
         }
     }
@@ -33,7 +32,7 @@ void FillArray(int[,] numbers)
     {
         for(int j = 0; j < colunms; j++)
         {
-            numbers[i, j] = random.Next(0, 10);
+            numbers[i, j] = random.Next(-9, 10);
         }
     }
 }
